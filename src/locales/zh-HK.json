@@ -1,0 +1,298 @@
+
+{
+  "common": {
+    "cancel": "取消",
+    "delete": "刪除",
+    "close": "關閉",
+    "save": "儲存",
+    "edit": "編輯",
+    "apply": "套用",
+    "errorTitle": "錯誤",
+    "unknownSource": "未知來源",
+    "unknownTarget": "未知目標",
+    "undo": "復原",
+    "redo": "重做"
+  },
+  "appLayout": {
+    "nodeLibraryTitle": "節點庫",
+    "expandNodeLibraryAriaLabel": "展開節點庫",
+    "collapseNodeLibraryAriaLabel": "收起節點庫",
+    "nodeConfigTitle": "節點配置",
+    "expandNodeConfigAriaLabel": "展開節點配置",
+    "collapseNodeConfigAriaLabel": "收起節點配置",
+    "toolsPanelTitle": "工具",
+    "expandToolsPanelAriaLabel": "展開工具面板",
+    "collapseToolsPanelAriaLabel": "收合工具面板",
+    "toolsPanelTabTerminal": "終端機",
+    "toolsPanelTabConsole": "主控台",
+    "tabs": {
+      "flowCanvas": "流程畫布",
+      "flowCanvasTitle": "流程: {{flowName}}",
+      "codePreviewTitle": "預覽: {{flowName}}.py",
+      "closeTabAriaLabel": "關閉標籤頁 {{tabTitle}}",
+      "expandToolsPanelAriaLabel": "展開工具面板",
+      "collapseToolsPanelAriaLabel": "收合工具面板",
+      "noTabsOpen": "沒有開啟的標籤頁。"
+    }
+  },
+  "header": {
+    "flowNameAriaLabel": "流程名稱",
+    "untitledFlow": "未命名流程",
+    "newButton": "新增",
+    "saveButton": "儲存",
+    "previewButton": "預覽",
+    "previewButtonAriaLabel": "預覽流程代碼",
+    "exportButton": "匯出",
+    "settingsAriaLabel": "設定",
+    "languageSettingsLabel": "語言",
+    "previewFlowLog": "預覽流程：",
+    "editFlowNameDialogTitle": "編輯流程名稱"
+  },
+  "nodePalette": {
+    "draggableNodeAriaLabel": "可拖曳節點",
+    "flowTemplateAriaLabel": "流程範本",
+    "clickToAddAriaHint": "或點擊新增",
+    "doubleClickToEditFlowAriaHint": "雙擊編輯流程",
+    "editNameAriaLabel": "編輯名稱",
+    "deleteFlowTemplateAriaLabel": "刪除流程範本 {{name}}",
+    "deleteFunctionTemplateAriaLabel": "刪除函數定義 {{name}}",
+    "confirmDeleteFlowTemplateTitle": "確認刪除流程範本",
+    "confirmDeleteFunctionTemplateTitle": "確認刪除函數定義",
+    "confirmDeleteFlowTemplateDescription": "您確定要刪除流程範本「{{name}}」嗎？此操作無法復原。畫布中已使用的此子流程節點不會被刪除。",
+    "confirmDeleteFunctionTemplateDescription": "您確定要刪除函數定義「{{name}}」嗎？此操作無法復原。",
+    "deleteTemplateButton": "刪除",
+    "excelInputName": "Excel 輸入",
+    "excelInputDescription": "載入 Excel 資料。",
+    "csvInputName": "CSV 輸入",
+    "csvInputDescription": "載入 CSV 資料。",
+    "pythonFunctionName": "Python 函數",
+    "pythonFunctionDescription": "執行自訂Python程式碼。",
+    "outputNodeName": "輸出節點",
+    "outputNodeDescription": "顯示流程結果。",
+    "basicNodesTitle": "基礎節點",
+    "functionNodesTitle": "函數定義",
+    "searchFunctionsPlaceholder": "搜尋函數定義...",
+    "noFunctionsFound": "未找到相符的函數定義。",
+    "noSavedFunctions": "尚無已儲存的函數定義。",
+    "customFunctionPrefix": "自訂函數",
+    "flowTemplatesTitle": "流程範本",
+    "noSavedFlowsShort": "尚無已儲存流程。",
+    "flowPrefix": "流程",
+    "flowTemplateCreatedAtDescription": "建立於: {{createdAt}}",
+    "functionTemplateAriaLabel": "函數定義",
+    "clickToEditAriaHint": "點擊編輯名稱，雙擊配置",
+    "baseFunctionReadOnlyHint": "基礎函數，唯讀"
+  },
+  "configPanel": {
+    "portNamePlaceholder": "參數顯示名稱",
+    "customPort": "自訂",
+    "originalPortNameLabel": "原名",
+    "editPortNameAriaLabel": "編輯參數名稱",
+    "selectNodePrompt": "請在畫布中选择一个节点或从库中选择函数定义以查看其配置。",
+    "configureNodeTitle": "配置節點: {{name}}",
+    "configureTemplateTitle": "編輯函數定義: {{name}}",
+    "nodeNameLabel": "節點名稱",
+    "templateNameLabel": "函數定義名稱 (檔案名稱)",
+    "templateNamePlaceholder": "輸入檔案名稱 (不含.py)",
+    "templateNameError": {
+      "empty": "函數定義名稱不能為空。",
+      "conflict": "函數定義名稱「{{name}}」已存在，請使用其他名稱。"
+    },
+    "pythonCodeLabel": "Python 程式碼",
+    "excelFileLabel": "Excel 檔案",
+    "csvFileLabel": "CSV 檔案",
+    "uploadButton": "上傳",
+    "selectedFileLabel": "已選擇",
+    "fileSizeLabel": "大小",
+    "filePreviewLabel": "檔案預覽",
+    "noDataToPreview": "無資料可預覽或檔案為空。",
+    "emptyFileError": "檔案為空或無法讀取。",
+    "subflowIdLabel": "流程範本 ID",
+    "subflowIdPlaceholder": "流程範本的ID",
+    "subflowIdDescription": "此ID對應已儲存的流程範本。拖曳自流程範本庫。",
+    "outputTypeLabel": "輸出類型",
+    "selectOutputTypePlaceholder": "選擇輸出類型",
+    "outputValueJsonLabel": "輸出值",
+    "inputParametersLabel": "輸入參數",
+    "addInputParameterButton": "新增輸入",
+    "noInputParameters": "尚無輸入參數",
+    "outputParametersLabel": "輸出參數",
+    "addOutputParameterButton": "新增輸出",
+    "noOutputParameters": "尚無輸出參數",
+    "applyChangesButton": "套用變更",
+    "editPythonCodeTitle": "編輯 Python 程式碼: {{name}}",
+    "applyCodeAndCloseButton": "套用程式碼並關閉",
+    "customFunctionPrefix": "自訂函數",
+    "aiHelper": {
+      "inputPlaceholder": "讓 Gemini 幫您編寫程式碼",
+      "triggerButtonAriaLabel": "使用 AI 生成程式碼",
+      "toast": {
+        "generatingTitle": "AI 正在生成程式碼...",
+        "successTitle": "AI 程式碼已生成",
+        "successDescription": "程式碼已填入編輯器。",
+        "errorTitle": "AI 生成失敗",
+        "errorDescription": "無法生成程式碼: {{error}}",
+        "emptyResultError": "AI 未返回任何程式碼內容。"
+      }
+    }
+  },
+  "flowCanvas": {
+    "newNodeDefaultName": "新節點",
+    "ariaLabel": "流程畫布",
+    "deleteConnectionAriaLabel": "刪除選中連接線",
+    "zoomInAriaLabel": "放大",
+    "zoomOutAriaLabel": "縮小",
+    "resetViewAriaLabel": "重設視圖"
+  },
+  "flowNode": {
+    "ariaLabel": "流程節點: {{name}}, 類型: {{type}}{{selected}}",
+    "selectedStatus": ", 已選取",
+    "deleteNodeAriaLabel": "刪除節點 {{name}}",
+    "pathLabel": "路徑",
+    "subflowIdLabel": "流程範本 ID",
+    "filePreviewAvailableHint": "檔案資訊如下",
+    "showMoreData": "顯示更多資料 (共 {{count}} 列)",
+    "showLessData": "收合資料"
+  },
+  "toast": {
+    "flowNameUpdatedTitle": "流程名稱已更新",
+    "flowNameUpdatedDescription": "新的流程名稱為: {{name}}",
+    "flowSavedTitle": "流程已儲存",
+    "flowSavedDescription": "流程「{{name}}」已成功儲存。",
+    "newFlowCreatedTitle": "新流程已建立",
+    "flowLoadedTitle": "流程已載入。",
+    "flowLoadedDescription": "流程「{{name}}」已載入。",
+    "flowLoadedForEditing": {
+      "title": "流程範本已載入",
+      "description": "流程範本「{{name}}」已載入到畫布進行編輯。"
+    },
+    "loadFailed": {
+      "title": "載入失敗",
+      "description": "找不到指定的流程範本。"
+    },
+    "flowDeletedTitle": "流程範本已刪除",
+    "flowDeletedDescription": "已儲存的流程範本「{{name}}」已刪除。",
+    "previewFlowTitle": "預覽流程",
+    "previewFlowDescription": "正在生成流程代碼預覽...",
+    "previewCompletedTitle": "預覽完成",
+    "previewCompletedDescription": "代碼預覽已生成，請查看新標籤頁。",
+    "flowExportedTitle": "流程已匯出",
+    "flowExportedDescription": "流程 {{name}} 已匯出為 Python 檔案。",
+    "updateFailed": "更新失敗",
+    "outputInvalidJson": "輸出值不是有效的JSON格式。",
+    "functionApplied": {
+      "title": "函數定義已套用",
+      "nodeDescription": "函數定義「{{name}}」已更新並儲存到函數定義庫。"
+    },
+    "nodeUpdated": {
+      "title": "節點已更新",
+      "description": "節點「{{name}}」的配置已儲存。"
+    },
+    "templateUpdated": {
+      "title": "函數定義已更新",
+      "description": "函數定義「{{name}}」更新成功。"
+    },
+    "codeUpdatedDialog": {
+      "title": "程式碼已更新",
+      "description": "程式碼已從放大編輯器同步，請點擊「套用變更」儲存節點。"
+    },
+    "connectionFailed": {
+      "title": "連接失敗",
+      "portAlreadyConnected": "參數 {{portName}} 已連接。",
+      "invalidConnectionTarget": "無效的連接目標或類型不符。"
+    },
+    "connectionSuccess": {
+      "title": "連接成功",
+      "description": "節點 {{sourceNodeName}} -> {{targetNodeName}}"
+    },
+    "connectionCut": {
+      "title": "連接線已切斷",
+      "description": "從 {{sourceNodeName}} 到 {{targetNodeName}} 的連接線已被切斷。"
+    },
+    "nodeAdded": {
+      "title": "節點已新增",
+      "toCanvasDescription": "類型為「{{name}}」的節點已新增到畫布。",
+      "byClickDescription": "透過點擊新增了「{{name}}」節點。"
+    },
+    "functionDefinition": {
+      "nameConflict": "函數定義名稱「{{name}}」已存在，請使用其他名稱。"
+    },
+    "functionTemplateDeleted": {
+      "title": "函數定義已刪除",
+      "description": "函數定義「{{name}}」已從清單中刪除。"
+    },
+    "templateSelected": {
+      "title": "函數定義已選取",
+      "description": "函數定義「{{name}}」已選取用於編輯。"
+    },
+    "templateNameUpdated": {
+      "title": "函數定義名稱已更新",
+      "description": "函數定義「{{oldName}}.py」已重新命名為「{{newName}}.py」。"
+    },
+    "fileSelected": {
+      "title": "檔案已選取",
+      "description": "檔案「{{fileName}}」已選取用於輸入。"
+    },
+    "fileReadError": {
+      "title": "檔案讀取錯誤",
+      "description": "無法讀取所選檔案。"
+    },
+    "codePreview": {
+      "loadingPreview": "正在載入程式碼預覽...",
+      "compilationErrorTitle": "編譯錯誤",
+      "flowNotAvailable": "無法載入流程 {{flowId}} 的程式碼預覽。",
+      "runScriptButtonAriaLabel": "執行預覽的Python腳本",
+      "runningScript": "正在執行腳本...",
+      "scriptRunComplete": "腳本執行完成。",
+      "scriptRunError": "執行腳本時發生錯誤: {{error}}",
+      "scriptRunCompleteCheckTerminal": "腳本執行完成，請查看主控台輸出。",
+      "installingDependenciesTitle": "正在安裝依賴項",
+      "installingDependencies": "正在安裝依賴項: {{packages}}",
+      "dependenciesInstalledSuccessTitle": "依賴項安裝成功",
+      "dependenciesInstalledSuccess": "依賴項 {{packages}} 安裝成功。",
+      "dependenciesInstallFailedTitle": "依賴項安裝失敗",
+      "dependenciesInstallFailedDesc": "依賴項安裝失敗: {{error}}"
+    }
+  },
+  "settingsDialog": {
+    "title": "應用程式設定",
+    "languageLabel": "語言",
+    "selectLanguagePlaceholder": "選擇語言",
+    "themeLabel": "主題",
+    "lightMode": "淺色模式",
+    "darkMode": "深色模式",
+    "switchToLightModeAriaLabel": "切換到淺色模式",
+    "switchToDarkModeAriaLabel": "切換到深色模式",
+    "fontSizeLabel": "字型大小",
+    "fontSizeSmall": "小號",
+    "fontSizeDefault": "預設",
+    "fontSizeMedium": "中號",
+    "fontSizeLarge": "大號",
+    "fontSizeLabelSmallPx": "12px",
+    "fontSizeLabelDefaultPx": "14px",
+    "fontSizeLabelMediumPx": "16px",
+    "fontSizeLabelLargePx": "18px"
+  },
+  "terminalPanel": {
+    "welcomeMessage": "歡迎使用終端機。輸入指令並按 Enter 鍵。",
+    "inputPlaceholder": "輸入指令...",
+    "pythonInputPlaceholder": "輸入 Python 程式碼...",
+    "pyodideInitializing": "Pyodide 正在初始化，請稍候...",
+    "pyodideReady": "Pyodide 已就緒。",
+    "pyodideFailed": "Pyodide 初始化失敗",
+    "pyodideFailedShort": "Pyodide 未就緒。",
+    "pyodideLoadingInProgress": "Pyodide 仍在載入中，請稍候...",
+    "installingPackage": "正在安裝套件: {{packageName}}...",
+    "pipInstallNoPackage": "錯誤: pip install 需要一個套件名稱。",
+    "pythonReplEntered": "已進入 Python 互動模式。輸入 exit() 或 quit() 離開。",
+    "pythonReplExited": "已離開 Python 互動模式。",
+    "cleared": "終端機已清空。",
+    "helpText": "可用指令 (模擬):\n  clear          - 清空終端機\n  help           - 顯示此幫助訊息\n  python         - 進入 Python 互動模式\n  pip install <套件> - 安裝 Python 套件 (例如: pip install numpy)",
+    "unknownCommand": "未知指令: {{command}}。 輸入 'help' 查看可用指令。"
+  },
+  "consolePanel": {
+    "title": "主控台日誌",
+    "noLogs": "尚無日誌。",
+    "clearLogsAriaLabel": "清空日誌"
+  }
+}

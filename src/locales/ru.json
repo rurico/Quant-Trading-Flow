@@ -1,0 +1,298 @@
+
+{
+  "common": {
+    "cancel": "Отмена",
+    "delete": "Удалить",
+    "close": "Закрыть",
+    "save": "Сохранить",
+    "edit": "Редактировать",
+    "apply": "Применить",
+    "errorTitle": "Ошибка",
+    "unknownSource": "Неизвестный источник",
+    "unknownTarget": "Неизвестная цель",
+    "undo": "Отменить",
+    "redo": "Повторить"
+  },
+  "appLayout": {
+    "nodeLibraryTitle": "Библиотека узлов",
+    "expandNodeLibraryAriaLabel": "Развернуть библиотеку узлов",
+    "collapseNodeLibraryAriaLabel": "Свернуть библиотеку узлов",
+    "nodeConfigTitle": "Конфигурация узла",
+    "expandNodeConfigAriaLabel": "Развернуть конфигурацию узла",
+    "collapseNodeConfigAriaLabel": "Свернуть конфигурацию узла",
+    "toolsPanelTitle": "Инструменты",
+    "expandToolsPanelAriaLabel": "Развернуть панель инструментов",
+    "collapseToolsPanelAriaLabel": "Свернуть панель инструментов",
+    "toolsPanelTabTerminal": "Терминал",
+    "toolsPanelTabConsole": "Консоль",
+    "tabs": {
+      "flowCanvas": "Холст потока",
+      "flowCanvasTitle": "Поток: {{flowName}}",
+      "codePreviewTitle": "Предпросмотр: {{flowName}}.py",
+      "closeTabAriaLabel": "Закрыть вкладку {{tabTitle}}",
+      "expandToolsPanelAriaLabel": "Развернуть панель инструментов",
+      "collapseToolsPanelAriaLabel": "Свернуть панель инструментов",
+      "noTabsOpen": "Нет открытых вкладок."
+    }
+  },
+  "header": {
+    "flowNameAriaLabel": "Имя потока",
+    "untitledFlow": "Поток без названия",
+    "newButton": "Новый",
+    "saveButton": "Сохранить",
+    "previewButton": "Предпросмотр",
+    "previewButtonAriaLabel": "Предпросмотр кода потока",
+    "exportButton": "Экспорт",
+    "settingsAriaLabel": "Настройки",
+    "languageSettingsLabel": "Язык",
+    "previewFlowLog": "Предпросмотр потока:",
+    "editFlowNameDialogTitle": "Редактировать имя потока"
+  },
+  "nodePalette": {
+    "draggableNodeAriaLabel": "Перетаскиваемый узел",
+    "flowTemplateAriaLabel": "Шаблон потока",
+    "clickToAddAriaHint": "или нажмите, чтобы добавить",
+    "doubleClickToEditFlowAriaHint": "Дважды щелкните, чтобы редактировать поток",
+    "editNameAriaLabel": "Редактировать имя",
+    "deleteFlowTemplateAriaLabel": "Удалить шаблон потока {{name}}",
+    "deleteFunctionTemplateAriaLabel": "Удалить определение функции {{name}}",
+    "confirmDeleteFlowTemplateTitle": "Подтвердить удаление шаблона потока",
+    "confirmDeleteFunctionTemplateTitle": "Подтвердить удаление определения функции",
+    "confirmDeleteFlowTemplateDescription": "Вы уверены, что хотите удалить шаблон потока \"{{name}}\"? Это действие нельзя отменить. Узлы подпотоков, использующие этот шаблон на холсте, не будут удалены.",
+    "confirmDeleteFunctionTemplateDescription": "Вы уверены, что хотите удалить определение функции \"{{name}}\"? Это действие нельзя отменить.",
+    "deleteTemplateButton": "Удалить",
+    "excelInputName": "Ввод Excel",
+    "excelInputDescription": "Загрузка данных из файла Excel.",
+    "csvInputName": "Ввод CSV",
+    "csvInputDescription": "Загрузка данных из файла CSV.",
+    "pythonFunctionName": "Функция Python",
+    "pythonFunctionDescription": "Выполнение пользовательского кода Python.",
+    "outputNodeName": "Узел вывода",
+    "outputNodeDescription": "Отображение результатов потока.",
+    "basicNodesTitle": "Основные узлы",
+    "functionNodesTitle": "Определения функций",
+    "searchFunctionsPlaceholder": "Поиск определений функций...",
+    "noFunctionsFound": "Соответствующих определений функций не найдено.",
+    "noSavedFunctions": "Сохраненных определений функций пока нет.",
+    "customFunctionPrefix": "Пользовательская функция",
+    "flowTemplatesTitle": "Шаблоны потоков",
+    "noSavedFlowsShort": "Сохраненных потоков нет.",
+    "flowPrefix": "Поток",
+    "flowTemplateCreatedAtDescription": "Создано: {{createdAt}}",
+    "functionTemplateAriaLabel": "Определение функции",
+    "clickToEditAriaHint": "Нажмите, чтобы редактировать имя, дважды щелкните для настройки",
+    "baseFunctionReadOnlyHint": "Базовая функция, только для чтения"
+  },
+  "configPanel": {
+    "portNamePlaceholder": "Отображаемое имя параметра",
+    "customPort": "Пользовательский",
+    "originalPortNameLabel": "Исходное имя",
+    "editPortNameAriaLabel": "Редактировать имя параметра",
+    "selectNodePrompt": "Выберите узел или определение функции из библиотеки, чтобы просмотреть его конфигурацию.",
+    "configureNodeTitle": "Настроить узел: {{name}}",
+    "configureTemplateTitle": "Редактировать определение функции: {{name}}",
+    "nodeNameLabel": "Имя узла",
+    "templateNameLabel": "Имя определения функции (имя файла)",
+    "templateNamePlaceholder": "Введите имя файла (без .py)",
+    "templateNameError": {
+      "empty": "Имя определения функции не может быть пустым.",
+      "conflict": "Имя определения функции \"{{name}}\" уже существует, используйте другое имя."
+    },
+    "pythonCodeLabel": "Код Python",
+    "excelFileLabel": "Файл Excel",
+    "csvFileLabel": "Файл CSV",
+    "uploadButton": "Загрузить",
+    "selectedFileLabel": "Выбрано",
+    "fileSizeLabel": "Размер",
+    "filePreviewLabel": "Предпросмотр файла",
+    "noDataToPreview": "Нет данных для предпросмотра или файл пуст.",
+    "emptyFileError": "Файл пуст или не может быть прочитан.",
+    "subflowIdLabel": "ID шаблона потока",
+    "subflowIdPlaceholder": "ID шаблона потока",
+    "subflowIdDescription": "Этот ID соответствует сохраненному шаблону потока. Перетащите из библиотеки шаблонов потоков.",
+    "outputTypeLabel": "Тип вывода",
+    "selectOutputTypePlaceholder": "Выберите тип вывода",
+    "outputValueJsonLabel": "Выходное значение",
+    "inputParametersLabel": "Входные параметры",
+    "addInputParameterButton": "Добавить вход",
+    "noInputParameters": "Нет входных параметров",
+    "outputParametersLabel": "Выходные параметры",
+    "addOutputParameterButton": "Добавить выход",
+    "noOutputParameters": "Нет выходных параметров",
+    "applyChangesButton": "Применить изменения",
+    "editPythonCodeTitle": "Редактировать код Python: {{name}}",
+    "applyCodeAndCloseButton": "Применить код и закрыть",
+    "customFunctionPrefix": "Пользовательская функция",
+    "aiHelper": {
+      "inputPlaceholder": "Попросите Gemini написать код",
+      "triggerButtonAriaLabel": "Сгенерировать код с помощью ИИ",
+      "toast": {
+        "generatingTitle": "ИИ генерирует код...",
+        "successTitle": "Код ИИ сгенерирован",
+        "successDescription": "Код был вставлен в редактор.",
+        "errorTitle": "Ошибка генерации ИИ",
+        "errorDescription": "Не удалось сгенерировать код: {{error}}",
+        "emptyResultError": "ИИ не вернул никакого кода."
+      }
+    }
+  },
+  "flowCanvas": {
+    "newNodeDefaultName": "Новый узел",
+    "ariaLabel": "Холст потока",
+    "deleteConnectionAriaLabel": "Удалить выбранное соединение",
+    "zoomInAriaLabel": "Увеличить",
+    "zoomOutAriaLabel": "Уменьшить",
+    "resetViewAriaLabel": "Сбросить вид"
+  },
+  "flowNode": {
+    "ariaLabel": "Узел потока: {{name}}, Тип: {{type}}{{selected}}",
+    "selectedStatus": ", Выбран",
+    "deleteNodeAriaLabel": "Удалить узел {{name}}",
+    "pathLabel": "Путь",
+    "subflowIdLabel": "ID шаблона потока",
+    "filePreviewAvailableHint": "Информация о файле ниже",
+    "showMoreData": "Показать больше данных (всего {{count}} строк)",
+    "showLessData": "Свернуть данные"
+  },
+  "toast": {
+    "flowNameUpdatedTitle": "Имя потока обновлено",
+    "flowNameUpdatedDescription": "Новое имя потока: {{name}}",
+    "flowSavedTitle": "Поток сохранен",
+    "flowSavedDescription": "Поток \"{{name}}\" успешно сохранен.",
+    "newFlowCreatedTitle": "Новый поток создан",
+    "flowLoadedTitle": "Поток загружен",
+    "flowLoadedDescription": "Поток \"{{name}}\" загружен.",
+    "flowLoadedForEditing": {
+      "title": "Шаблон потока загружен",
+      "description": "Шаблон потока \"{{name}}\" загружен на холст для редактирования."
+    },
+    "loadFailed": {
+      "title": "Ошибка загрузки",
+      "description": "Не удалось найти указанный шаблон потока."
+    },
+    "flowDeletedTitle": "Шаблон потока удален",
+    "flowDeletedDescription": "Сохраненный шаблон потока \"{{name}}\" удален.",
+    "previewFlowTitle": "Предпросмотр потока",
+    "previewFlowDescription": "Генерация предпросмотра кода потока...",
+    "previewCompletedTitle": "Предпросмотр завершен",
+    "previewCompletedDescription": "Предпросмотр кода сгенерирован. Проверьте новую вкладку.",
+    "flowExportedTitle": "Поток экспортирован",
+    "flowExportedDescription": "Поток {{name}} экспортирован как файл Python.",
+    "updateFailed": "Ошибка обновления",
+    "outputInvalidJson": "Выходное значение не является допустимым JSON.",
+    "functionApplied": {
+      "title": "Определение функции применено",
+      "nodeDescription": "Определение функции \"{{name}}\" обновлено и сохранено в библиотеку определений функций."
+    },
+    "nodeUpdated": {
+      "title": "Узел обновлен",
+      "description": "Конфигурация узла \"{{name}}\" сохранена."
+    },
+    "templateUpdated": {
+      "title": "Определение функции обновлено",
+      "description": "Определение функции \"{{name}}\" успешно обновлено."
+    },
+    "codeUpdatedDialog": {
+      "title": "Код обновлен",
+      "description": "Код синхронизирован из увеличенного редактора. Нажмите «Применить изменения», чтобы сохранить узел."
+    },
+    "connectionFailed": {
+      "title": "Ошибка соединения",
+      "portAlreadyConnected": "Параметр {{portName}} уже подключен.",
+      "invalidConnectionTarget": "Недопустимая цель соединения или несоответствие типов."
+    },
+    "connectionSuccess": {
+      "title": "Соединение успешно",
+      "description": "Узел {{sourceNodeName}} -> {{targetNodeName}}"
+    },
+    "connectionCut": {
+      "title": "Соединение разорвано",
+      "description": "Соединение от {{sourceNodeName}} к {{targetNodeName}} было разорвано."
+    },
+    "nodeAdded": {
+      "title": "Узел добавлен",
+      "toCanvasDescription": "Узел типа \"{{name}}\" добавлен на холст.",
+      "byClickDescription": "Узел \"{{name}}\" добавлен щелчком мыши."
+    },
+    "functionDefinition": {
+      "nameConflict": "Имя определения функции \"{{name}}\" уже существует, используйте другое имя."
+    },
+    "functionTemplateDeleted": {
+      "title": "Определение функции удалено",
+      "description": "Определение функции \"{{name}}\" удалено из списка."
+    },
+    "templateSelected": {
+      "title": "Определение функции выбрано",
+      "description": "Определение функции \"{{name}}\" выбрано для редактирования."
+    },
+    "templateNameUpdated": {
+      "title": "Имя определения функции обновлено",
+      "description": "Определение функции \"{{oldName}}.py\" переименовано в \"{{newName}}.py\"."
+    },
+    "fileSelected": {
+      "title": "Файл выбран",
+      "description": "Файл \"{{fileName}}\" выбран для ввода."
+    },
+    "fileReadError": {
+      "title": "Ошибка чтения файла",
+      "description": "Не удалось прочитать выбранный файл."
+    },
+    "codePreview": {
+      "loadingPreview": "Загрузка предпросмотра кода...",
+      "compilationErrorTitle": "Ошибка компиляции",
+      "flowNotAvailable": "Не удалось загрузить предпросмотр кода для потока {{flowId}}.",
+      "runScriptButtonAriaLabel": "Запустить предварительно просмотренный скрипт Python",
+      "runningScript": "Выполнение скрипта...",
+      "scriptRunComplete": "Выполнение скрипта завершено.",
+      "scriptRunError": "Ошибка выполнения скрипта: {{error}}",
+      "scriptRunCompleteCheckTerminal": "Выполнение скрипта завершено, проверьте вывод консоли.",
+      "installingDependenciesTitle": "Установка зависимостей",
+      "installingDependencies": "Установка зависимостей: {{packages}}",
+      "dependenciesInstalledSuccessTitle": "Зависимости установлены",
+      "dependenciesInstalledSuccess": "Зависимости {{packages}} успешно установлены.",
+      "dependenciesInstallFailedTitle": "Ошибка установки зависимостей",
+      "dependenciesInstallFailedDesc": "Не удалось установить зависимости: {{error}}"
+    }
+  },
+  "settingsDialog": {
+    "title": "Настройки приложения",
+    "languageLabel": "Язык",
+    "selectLanguagePlaceholder": "Выберите язык",
+    "themeLabel": "Тема",
+    "lightMode": "Светлая тема",
+    "darkMode": "Темная тема",
+    "switchToLightModeAriaLabel": "Переключиться на светлую тему",
+    "switchToDarkModeAriaLabel": "Переключиться на темную тему",
+    "fontSizeLabel": "Размер шрифта",
+    "fontSizeSmall": "Маленький",
+    "fontSizeDefault": "По умолчанию",
+    "fontSizeMedium": "Средний",
+    "fontSizeLarge": "Большой",
+    "fontSizeLabelSmallPx": "12px",
+    "fontSizeLabelDefaultPx": "14px",
+    "fontSizeLabelMediumPx": "16px",
+    "fontSizeLabelLargePx": "18px"
+  },
+  "terminalPanel": {
+    "welcomeMessage": "Добро пожаловать в терминал. Вводите команды и нажимайте Enter.",
+    "inputPlaceholder": "Введите команду...",
+    "pythonInputPlaceholder": "Введите код Python...",
+    "pyodideInitializing": "Pyodide инициализируется, подождите...",
+    "pyodideReady": "Pyodide готов.",
+    "pyodideFailed": "Ошибка инициализации Pyodide",
+    "pyodideFailedShort": "Pyodide не готов.",
+    "pyodideLoadingInProgress": "Pyodide все еще загружается, подождите...",
+    "installingPackage": "Установка пакета: {{packageName}}...",
+    "pipInstallNoPackage": "Ошибка: pip install требует имя пакета.",
+    "pythonReplEntered": "Вошли в интерактивный режим Python. Введите exit() или quit() для выхода.",
+    "pythonReplExited": "Вышли из интерактивного режима Python.",
+    "cleared": "Терминал очищен.",
+    "helpText": "Доступные команды (эмуляция):\n  clear          - Очистить терминал\n  help           - Показать это справочное сообщение\n  python         - Войти в интерактивный режим Python\n  pip install <пакет> - Установить пакет Python (например, pip install numpy)",
+    "unknownCommand": "Неизвестная команда: {{command}}. Введите 'help' для просмотра доступных команд."
+  },
+  "consolePanel": {
+    "title": "Журнал консоли",
+    "noLogs": "Записей пока нет.",
+    "clearLogsAriaLabel": "Очистить журнал"
+  }
+}

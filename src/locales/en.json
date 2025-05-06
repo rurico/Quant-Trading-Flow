@@ -1,0 +1,298 @@
+
+{
+  "common": {
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "close": "Close",
+    "save": "Save",
+    "edit": "Edit",
+    "apply": "Apply",
+    "errorTitle": "Error",
+    "unknownSource": "Unknown Source",
+    "unknownTarget": "Unknown Target",
+    "undo": "Undo",
+    "redo": "Redo"
+  },
+  "appLayout": {
+    "nodeLibraryTitle": "Node Library",
+    "expandNodeLibraryAriaLabel": "Expand Node Library",
+    "collapseNodeLibraryAriaLabel": "Collapse Node Library",
+    "nodeConfigTitle": "Node Configuration",
+    "expandNodeConfigAriaLabel": "Expand Node Configuration",
+    "collapseNodeConfigAriaLabel": "Collapse Node Configuration",
+    "toolsPanelTitle": "Tools",
+    "expandToolsPanelAriaLabel": "Expand Tools Panel",
+    "collapseToolsPanelAriaLabel": "Collapse Tools Panel",
+    "toolsPanelTabTerminal": "Terminal",
+    "toolsPanelTabConsole": "Console",
+    "tabs": {
+      "flowCanvas": "Flow Canvas",
+      "flowCanvasTitle": "Flow: {{flowName}}",
+      "codePreviewTitle": "Preview: {{flowName}}.py",
+      "closeTabAriaLabel": "Close tab {{tabTitle}}",
+      "expandToolsPanelAriaLabel": "Expand Tools Panel",
+      "collapseToolsPanelAriaLabel": "Collapse Tools Panel",
+      "noTabsOpen": "No tabs open."
+    }
+  },
+  "header": {
+    "flowNameAriaLabel": "Flow Name",
+    "untitledFlow": "Untitled Flow",
+    "newButton": "New",
+    "saveButton": "Save",
+    "previewButton": "Preview",
+    "previewButtonAriaLabel": "Preview Flow Code",
+    "exportButton": "Export",
+    "settingsAriaLabel": "Settings",
+    "languageSettingsLabel": "Language",
+    "previewFlowLog": "Preview Flow:",
+    "editFlowNameDialogTitle": "Edit Flow Name"
+  },
+  "nodePalette": {
+    "draggableNodeAriaLabel": "Draggable node",
+    "flowTemplateAriaLabel": "Flow Template",
+    "clickToAddAriaHint": "or click to add",
+    "doubleClickToEditFlowAriaHint": "Double-click to edit flow",
+    "editNameAriaLabel": "Edit name",
+    "deleteFlowTemplateAriaLabel": "Delete flow template {{name}}",
+    "deleteFunctionTemplateAriaLabel": "Delete function definition {{name}}",
+    "confirmDeleteFlowTemplateTitle": "Confirm Delete Flow Template",
+    "confirmDeleteFunctionTemplateTitle": "Confirm Delete Function Definition",
+    "confirmDeleteFlowTemplateDescription": "Are you sure you want to delete the flow template \"{{name}}\"? This action cannot be undone. Sub-flow nodes using this template on the canvas will not be deleted.",
+    "confirmDeleteFunctionTemplateDescription": "Are you sure you want to delete the function definition \"{{name}}\"? This action cannot be undone.",
+    "deleteTemplateButton": "Delete",
+    "excelInputName": "Excel Input",
+    "excelInputDescription": "Load data from an Excel file.",
+    "csvInputName": "CSV Input",
+    "csvInputDescription": "Load data from a CSV file.",
+    "pythonFunctionName": "Python Function",
+    "pythonFunctionDescription": "Execute custom Python code.",
+    "outputNodeName": "Output Node",
+    "outputNodeDescription": "Display flow results.",
+    "basicNodesTitle": "Basic Nodes",
+    "functionNodesTitle": "Function Definitions",
+    "searchFunctionsPlaceholder": "Search function definitions...",
+    "noFunctionsFound": "No matching function definitions found.",
+    "noSavedFunctions": "No saved function definitions yet.",
+    "customFunctionPrefix": "Custom Function",
+    "flowTemplatesTitle": "Flow Templates",
+    "noSavedFlowsShort": "No saved flows.",
+    "flowPrefix": "Flow",
+    "flowTemplateCreatedAtDescription": "Created at: {{createdAt}}",
+    "functionTemplateAriaLabel": "Function Definition",
+    "clickToEditAriaHint": "Click to edit name, double-click to configure",
+    "baseFunctionReadOnlyHint": "Base function, read-only"
+  },
+  "configPanel": {
+    "portNamePlaceholder": "Parameter display name",
+    "customPort": "Custom",
+    "originalPortNameLabel": "Original",
+    "editPortNameAriaLabel": "Edit parameter name",
+    "selectNodePrompt": "Select a node or function definition from the library to see its configuration.",
+    "configureNodeTitle": "Configure Node: {{name}}",
+    "configureTemplateTitle": "Edit Function Definition: {{name}}",
+    "nodeNameLabel": "Node Name",
+    "templateNameLabel": "Function Definition Name (filename)",
+    "templateNamePlaceholder": "Enter filename (no .py)",
+    "templateNameError": {
+      "empty": "Function definition name cannot be empty.",
+      "conflict": "Function definition name \"{{name}}\" already exists, please use another name."
+    },
+    "pythonCodeLabel": "Python Code",
+    "excelFileLabel": "Excel File",
+    "csvFileLabel": "CSV File",
+    "uploadButton": "Upload",
+    "selectedFileLabel": "Selected",
+    "fileSizeLabel": "Size",
+    "filePreviewLabel": "File Preview",
+    "noDataToPreview": "No data to preview or file is empty.",
+    "emptyFileError": "File is empty or could not be read.",
+    "subflowIdLabel": "Flow Template ID",
+    "subflowIdPlaceholder": "ID of the flow template",
+    "subflowIdDescription": "This ID corresponds to a saved flow template. Drag from the Flow Templates library.",
+    "outputTypeLabel": "Output Type",
+    "selectOutputTypePlaceholder": "Select output type",
+    "outputValueJsonLabel": "Output Value",
+    "inputParametersLabel": "Input Parameters",
+    "addInputParameterButton": "Add Input",
+    "noInputParameters": "No input parameters",
+    "outputParametersLabel": "Output Parameters",
+    "addOutputParameterButton": "Add Output",
+    "noOutputParameters": "No output parameters",
+    "applyChangesButton": "Apply Changes",
+    "editPythonCodeTitle": "Edit Python Code: {{name}}",
+    "applyCodeAndCloseButton": "Apply Code & Close",
+    "customFunctionPrefix": "Custom Function",
+    "aiHelper": {
+      "inputPlaceholder": "Ask Gemini to write code",
+      "triggerButtonAriaLabel": "Generate code with AI",
+      "toast": {
+        "generatingTitle": "AI is generating code...",
+        "successTitle": "AI Code Generated",
+        "successDescription": "Code has been populated into the editor.",
+        "errorTitle": "AI Generation Failed",
+        "errorDescription": "Failed to generate code: {{error}}",
+        "emptyResultError": "AI did not return any code content."
+      }
+    }
+  },
+  "flowCanvas": {
+    "newNodeDefaultName": "New Node",
+    "ariaLabel": "Flow Canvas",
+    "deleteConnectionAriaLabel": "Delete selected connection",
+    "zoomInAriaLabel": "Zoom In",
+    "zoomOutAriaLabel": "Zoom Out",
+    "resetViewAriaLabel": "Reset View"
+  },
+  "flowNode": {
+    "ariaLabel": "Flow Node: {{name}}, Type: {{type}}{{selected}}",
+    "selectedStatus": ", Selected",
+    "deleteNodeAriaLabel": "Delete node {{name}}",
+    "pathLabel": "Path",
+    "subflowIdLabel": "Flow Template ID",
+    "filePreviewAvailableHint": "File information below",
+    "showMoreData": "Show more data ({{count}} rows total)",
+    "showLessData": "Show less data"
+  },
+  "toast": {
+    "flowNameUpdatedTitle": "Flow Name Updated",
+    "flowNameUpdatedDescription": "New flow name: {{name}}",
+    "flowSavedTitle": "Flow Saved",
+    "flowSavedDescription": "Flow \"{{name}}\" saved successfully.",
+    "newFlowCreatedTitle": "New Flow Created",
+    "flowLoadedTitle": "Flow Loaded",
+    "flowLoadedDescription": "Flow \"{{name}}\" loaded.",
+    "flowLoadedForEditing": {
+      "title": "Flow Template Loaded",
+      "description": "Flow template \"{{name}}\" loaded to canvas for editing."
+    },
+    "loadFailed": {
+      "title": "Load Failed",
+      "description": "Could not find the specified flow template."
+    },
+    "flowDeletedTitle": "Flow Template Deleted",
+    "flowDeletedDescription": "Saved flow template \"{{name}}\" deleted.",
+    "previewFlowTitle": "Previewing Flow",
+    "previewFlowDescription": "Generating flow code preview...",
+    "previewCompletedTitle": "Preview Completed",
+    "previewCompletedDescription": "Code preview generated. Check the new tab.",
+    "flowExportedTitle": "Flow Exported",
+    "flowExportedDescription": "Flow {{name}} exported as Python file.",
+    "updateFailed": "Update Failed",
+    "outputInvalidJson": "Output value is not valid JSON.",
+    "functionApplied": {
+      "title": "Function Definition Applied",
+      "nodeDescription": "Function definition \"{{name}}\" updated and saved to Function Definition library."
+    },
+    "nodeUpdated": {
+      "title": "Node Updated",
+      "description": "Node \"{{name}}\" configuration saved."
+    },
+    "templateUpdated": {
+      "title": "Function Definition Updated",
+      "description": "Function definition \"{{name}}\" updated successfully."
+    },
+    "codeUpdatedDialog": {
+      "title": "Code Updated",
+      "description": "Code synced from enlarged editor. Click 'Apply Changes' to save node."
+    },
+    "connectionFailed": {
+      "title": "Connection Failed",
+      "portAlreadyConnected": "Parameter {{portName}} is already connected.",
+      "invalidConnectionTarget": "Invalid connection target or type mismatch."
+    },
+    "connectionSuccess": {
+      "title": "Connection Successful",
+      "description": "Node {{sourceNodeName}} -> {{targetNodeName}}"
+    },
+    "connectionCut": {
+      "title": "Connection Cut",
+      "description": "Connection from {{sourceNodeName}} to {{targetNodeName}} has been cut."
+    },
+    "nodeAdded": {
+      "title": "Node Added",
+      "toCanvasDescription": "Node of type \"{{name}}\" added to canvas.",
+      "byClickDescription": "Added node \"{{name}}\" by click."
+    },
+    "functionDefinition": {
+      "nameConflict": "Function definition name \"{{name}}\" already exists, please use another name."
+    },
+    "functionTemplateDeleted": {
+      "title": "Function Definition Deleted",
+      "description": "Function definition \"{{name}}\" deleted from list."
+    },
+    "templateSelected": {
+      "title": "Function Definition Selected",
+      "description": "Function definition \"{{name}}\" selected for editing."
+    },
+    "templateNameUpdated": {
+      "title": "Function Definition Name Updated",
+      "description": "Function definition \"{{oldName}}.py\" renamed to \"{{newName}}.py\"."
+    },
+    "fileSelected": {
+      "title": "File Selected",
+      "description": "File \"{{fileName}}\" selected for input."
+    },
+    "fileReadError": {
+      "title": "File Read Error",
+      "description": "Could not read the selected file."
+    },
+    "codePreview": {
+      "loadingPreview": "Loading code preview...",
+      "compilationErrorTitle": "Compilation Error",
+      "flowNotAvailable": "Could not load code preview for flow {{flowId}}.",
+      "runScriptButtonAriaLabel": "Run the previewed Python script",
+      "runningScript": "Running script...",
+      "scriptRunComplete": "Script run complete.",
+      "scriptRunError": "Error running script: {{error}}",
+      "scriptRunCompleteCheckTerminal": "Script run complete, check console output.",
+      "installingDependenciesTitle": "Installing Dependencies",
+      "installingDependencies": "Installing dependencies: {{packages}}",
+      "dependenciesInstalledSuccessTitle": "Dependencies Installed",
+      "dependenciesInstalledSuccess": "Dependencies {{packages}} installed successfully.",
+      "dependenciesInstallFailedTitle": "Dependency Installation Failed",
+      "dependenciesInstallFailedDesc": "Failed to install dependencies: {{error}}"
+    }
+  },
+  "settingsDialog": {
+    "title": "Application Settings",
+    "languageLabel": "Language",
+    "selectLanguagePlaceholder": "Select Language",
+    "themeLabel": "Theme",
+    "lightMode": "Light Mode",
+    "darkMode": "Dark Mode",
+    "switchToLightModeAriaLabel": "Switch to Light Mode",
+    "switchToDarkModeAriaLabel": "Switch to Dark Mode",
+    "fontSizeLabel": "Font Size",
+    "fontSizeSmall": "Small",
+    "fontSizeDefault": "Default",
+    "fontSizeMedium": "Medium",
+    "fontSizeLarge": "Large",
+    "fontSizeLabelSmallPx": "12px",
+    "fontSizeLabelDefaultPx": "14px",
+    "fontSizeLabelMediumPx": "16px",
+    "fontSizeLabelLargePx": "18px"
+  },
+  "terminalPanel": {
+    "welcomeMessage": "Welcome to the terminal. Type commands and press Enter.",
+    "inputPlaceholder": "Enter command...",
+    "pythonInputPlaceholder": "Enter Python code...",
+    "pyodideInitializing": "Pyodide is initializing, please wait...",
+    "pyodideReady": "Pyodide is ready.",
+    "pyodideFailed": "Pyodide initialization failed",
+    "pyodideFailedShort": "Pyodide not ready.",
+    "pyodideLoadingInProgress": "Pyodide is still loading, please wait...",
+    "installingPackage": "Installing package: {{packageName}}...",
+    "pipInstallNoPackage": "Error: pip install requires a package name.",
+    "pythonReplEntered": "Entered Python interactive mode. Type exit() or quit() to exit.",
+    "pythonReplExited": "Exited Python interactive mode.",
+    "cleared": "Terminal cleared.",
+    "helpText": "Available commands (simulated):\n  clear          - Clear the terminal\n  help           - Show this help message\n  python         - Enter Python interactive mode\n  pip install <package> - Install a Python package (e.g., pip install numpy)",
+    "unknownCommand": "Unknown command: {{command}}. Type 'help' for available commands."
+  },
+  "consolePanel": {
+    "title": "Console Log",
+    "noLogs": "No logs yet.",
+    "clearLogsAriaLabel": "Clear logs"
+  }
+}

@@ -1,0 +1,302 @@
+
+{
+  "common": {
+    "cancel": "取消",
+    "delete": "删除",
+    "close": "关闭",
+    "save": "保存",
+    "edit": "编辑",
+    "apply": "应用",
+    "errorTitle": "错误",
+    "unknownSource": "未知来源",
+    "unknownTarget": "未知目标",
+    "undo": "撤销",
+    "redo": "重做"
+  },
+  "appLayout": {
+    "nodeLibraryTitle": "节点库",
+    "expandNodeLibraryAriaLabel": "展开节点库",
+    "collapseNodeLibraryAriaLabel": "收起节点库",
+    "nodeConfigTitle": "节点配置",
+    "expandNodeConfigAriaLabel": "展开节点配置",
+    "collapseNodeConfigAriaLabel": "收起节点配置",
+    "toolsPanelTitle": "工具",
+    "expandToolsPanelAriaLabel": "展开工具面板",
+    "collapseToolsPanelAriaLabel": "收合工具面板",
+    "toolsPanelTabTerminal": "终端",
+    "toolsPanelTabConsole": "控制台",
+    "tabs": {
+      "flowCanvas": "流程画布",
+      "flowCanvasTitle": "流程: {{flowName}}",
+      "codePreviewTitle": "预览: {{flowName}}.py",
+      "matplotlibFigureTitle": "图像: {{figureId}}",
+      "closeTabAriaLabel": "关闭标签页 {{tabTitle}}",
+      "expandToolsPanelAriaLabel": "展开工具面板",
+      "collapseToolsPanelAriaLabel": "收合工具面板",
+      "noTabsOpen": "沒有開啟的標籤頁。"
+    }
+  },
+  "header": {
+    "flowNameAriaLabel": "流程名称",
+    "untitledFlow": "未命名流程",
+    "newButton": "新建",
+    "saveButton": "保存",
+    "previewButton": "预览",
+    "previewButtonAriaLabel": "预览流程代码",
+    "exportButton": "导出",
+    "settingsAriaLabel": "设置",
+    "languageSettingsLabel": "语言",
+    "previewFlowLog": "预览流程：",
+    "editFlowNameDialogTitle": "编辑流程名称"
+  },
+  "nodePalette": {
+    "draggableNodeAriaLabel": "可拖拽节点",
+    "flowTemplateAriaLabel": "流程模板",
+    "clickToAddAriaHint": "或点击添加",
+    "doubleClickToEditFlowAriaHint": "双击编辑流程",
+    "editNameAriaLabel": "编辑名称",
+    "deleteFlowTemplateAriaLabel": "删除流程模板 {{name}}",
+    "deleteFunctionTemplateAriaLabel": "删除函数定义 {{name}}",
+    "confirmDeleteFlowTemplateTitle": "确认删除流程模板",
+    "confirmDeleteFunctionTemplateTitle": "确认删除函数定义",
+    "confirmDeleteFlowTemplateDescription": "您确定要删除流程模板 “{{name}}” 吗？此操作无法撤销。画布中已使用的此模板的子流程节点不会被删除。",
+    "confirmDeleteFunctionTemplateDescription": "您确定要删除函数定义 “{{name}}” 吗？此操作无法撤销。",
+    "deleteTemplateButton": "删除",
+    "excelInputName": "Excel 输入",
+    "excelInputDescription": "加载 Excel 数据。",
+    "csvInputName": "CSV 输入",
+    "csvInputDescription": "加载 CSV 数据。",
+    "pythonFunctionName": "Python 函数",
+    "pythonFunctionDescription": "执行自定义Python代码。",
+    "outputNodeName": "输出节点",
+    "outputNodeDescription": "显示流程结果。",
+    "basicNodesTitle": "基础节点",
+    "functionNodesTitle": "函数定义",
+    "searchFunctionsPlaceholder": "搜索函数定义...",
+    "noFunctionsFound": "未找到匹配的函数定义。",
+    "noSavedFunctions": "暂无已保存的函数定义。",
+    "customFunctionPrefix": "自定义函数",
+    "flowTemplatesTitle": "流程模板",
+    "noSavedFlowsShort": "暂无流程模板。",
+    "flowPrefix": "流程",
+    "flowTemplateCreatedAtDescription": "创建于: {{createdAt}}",
+    "functionTemplateAriaLabel": "函数定义",
+    "clickToEditAriaHint": "单击编辑名称，双击配置",
+    "baseFunctionReadOnlyHint": "基础函数, 只读"
+  },
+  "configPanel": {
+    "portNamePlaceholder": "参数显示名称",
+    "customPort": "自定义",
+    "originalPortNameLabel": "原名",
+    "editPortNameAriaLabel": "编辑参数名称",
+    "selectNodePrompt": "请在画布中选择一个节点或从库中选择函数定义以查看其配置。",
+    "configureNodeTitle": "配置节点: {{name}}",
+    "configureTemplateTitle": "编辑函数定义: {{name}}",
+    "nodeNameLabel": "节点名称",
+    "templateNameLabel": "函数定义名称 (文件名)",
+    "templateNamePlaceholder": "输入文件名 (不含.py)",
+    "templateNameError": {
+        "empty": "函数定义名称不能为空。",
+        "conflict": "函数定义名称 “{{name}}” 已存在，请使用其他名称。"
+    },
+    "pythonCodeLabel": "Python 代码",
+    "excelFileLabel": "Excel 文件",
+    "csvFileLabel": "CSV 文件",
+    "uploadButton": "上传",
+    "selectedFileLabel": "已选择",
+    "fileSizeLabel": "大小",
+    "filePreviewLabel": "文件预览",
+    "noDataToPreview": "无数据可预览或文件为空。",
+    "emptyFileError": "文件为空或无法读取。",
+    "subflowIdLabel": "流程模板 ID",
+    "subflowIdPlaceholder": "流程模板的ID",
+    "subflowIdDescription": "此ID对应已保存的流程模板。拖拽自流程模板库。",
+    "outputTypeLabel": "输出类型",
+    "selectOutputTypePlaceholder": "选择输出类型",
+    "outputValueJsonLabel": "输出值",
+    "inputParametersLabel": "输入参数",
+    "addInputParameterButton": "添加输入",
+    "noInputParameters": "暂无输入参数",
+    "outputParametersLabel": "输出参数",
+    "addOutputParameterButton": "添加输出",
+    "noOutputParameters": "暂无输出参数",
+    "applyChangesButton": "应用更改",
+    "editPythonCodeTitle": "编辑 Python 代码: {{name}}",
+    "applyCodeAndCloseButton": "应用代码并关闭",
+    "customFunctionPrefix": "自订函数",
+    "aiHelper": {
+      "inputPlaceholderGenerate": "描述您想生成的 Python 函数...",
+      "inputPlaceholderModify": "描述您想如何修改下面的代码...",
+      "triggerButtonAriaLabel": "AI 生成代码",
+      "toast": {
+        "generatingTitle": "AI 正在生成代码...",
+        "successTitle": "AI 代码已生成",
+        "successDescription": "代码已填充到编辑器。",
+        "errorTitle": "AI 生成失败",
+        "errorDescription": "无法生成代码: {{error}}",
+        "emptyResultError": "AI 未返回任何代码内容。"
+      }
+    }
+  },
+  "flowCanvas": {
+    "newNodeDefaultName": "新节点",
+    "ariaLabel": "流程画布",
+    "deleteConnectionAriaLabel": "删除选中连接线",
+    "zoomInAriaLabel": "放大",
+    "zoomOutAriaLabel": "缩小",
+    "resetViewAriaLabel": "重置视图"
+  },
+  "flowNode": {
+    "ariaLabel": "流程节点: {{name}}, 类型: {{type}}{{selected}}",
+    "selectedStatus": ", 已选中",
+    "deleteNodeAriaLabel": "删除节点 {{name}}",
+    "pathLabel": "路径",
+    "subflowIdLabel": "流程模板 ID",
+    "filePreviewAvailableHint": "文件信息如下",
+    "showMoreData": "显示更多数据 (共 {{count}} 行)",
+    "showLessData": "收起数据"
+  },
+  "toast": {
+    "flowNameUpdatedTitle": "流程名称已更新",
+    "flowNameUpdatedDescription": "新的流程名称为: {{name}}",
+    "flowSavedTitle": "流程已保存",
+    "flowSavedDescription": "流程 “{{name}}” 已成功保存。",
+    "newFlowCreatedTitle": "新流程已创建",
+    "flowLoadedTitle": "流程已加载",
+    "flowLoadedDescription": "流程 “{{name}}” 已加载。",
+    "flowLoadedForEditing": {
+        "title": "流程模板已加载",
+        "description": "流程模板 “{{name}}” 已加载到画布进行编辑。"
+    },
+    "loadFailed": {
+        "title": "加载失败",
+        "description": "找不到指定的流程模板。"
+    },
+    "flowTemplateDeleted": {
+      "title": "流程模板已删除",
+      "description": "已保存的流程模板 “{{name}}” 已删除。"
+    },
+    "previewFlowTitle": "预览流程",
+    "previewFlowDescription": "正在生成流程代码预览...",
+    "previewCompletedTitle": "预览完成",
+    "previewCompletedDescription": "代码预览已生成，请查看新标签页。",
+    "flowExportedTitle": "流程已导出",
+    "flowExportedDescription": "流程 {{name}} 已导出为 Python 文件。",
+    "updateFailed": "更新失败",
+    "outputInvalidJson": "输出值不是有效的JSON格式。",
+    "functionApplied": {
+        "title": "函数定义已应用",
+        "nodeDescription": "函数定义 “{{name}}” 已更新并保存到函数定义库。"
+    },
+    "nodeUpdated": {
+        "title": "节点已更新",
+        "description": "节点 “{{name}}” 的配置已保存。"
+    },
+    "templateUpdated": {
+        "title": "函数定义已更新",
+        "description": "函数定义 “{{name}}” 更新成功。"
+    },
+    "codeUpdatedDialog": {
+        "title": "代码已更新",
+        "description": "代码已从放大编辑器同步，请点击“应用更改”保存节点。"
+    },
+    "connectionFailed": {
+        "title": "连接失败",
+        "portAlreadyConnected": "参数 {{portName}} 已连接。",
+        "invalidConnectionTarget": "无效的连接目标或类型不匹配。"
+    },
+    "connectionSuccess": {
+        "title": "连接成功",
+        "description": "节点 {{sourceNodeName}} -> {{targetNodeName}}"
+    },
+    "connectionCut": {
+      "title": "连接线已切断",
+      "description": "连接线从 {{sourceNodeName}} 到 {{targetNodeName}} 已被切断。"
+    },
+    "nodeAdded": {
+        "title": "节点已添加",
+        "toCanvasDescription": "类型为 “{{name}}” 的节点已添加到画布。",
+        "byClickDescription": "通过点击添加了 “{{name}}” 节点。"
+    },
+    "functionDefinition": {
+        "nameConflict": "函数定义名称 “{{name}}” 已存在，请使用其他名称。"
+    },
+    "functionTemplateDeleted": {
+        "title": "函数定义已删除",
+        "description": "函数定义 “{{name}}” 已从列表中删除。"
+    },
+    "templateSelected": {
+        "title": "函数定义已选中",
+        "description": "函数定义 “{{name}}” 已选中用于编辑。"
+    },
+    "templateNameUpdated": {
+        "title": "函数定义名称已更新",
+        "description": "函数定义 “{{oldName}}.py” 已重命名为 “{{newName}}.py”。"
+    },
+    "fileSelected": {
+        "title": "文件已选择",
+        "description": "文件“{{fileName}}”已选择用于输入。"
+    },
+    "fileReadError": {
+        "title": "文件读取错误",
+        "description": "无法读取所选文件。"
+    },
+    "codePreview": {
+      "loadingPreview": "正在加载代码预览...",
+      "compilationErrorTitle": "编译错误",
+      "flowNotAvailable": "无法加载流程 {{flowId}} 的代码预览。",
+      "runScriptButtonAriaLabel": "运行预览的Python脚本",
+      "runningScript": "正在运行脚本...",
+      "scriptRunComplete": "脚本运行完成。",
+      "scriptRunError": "脚本运行出错: {{error}}",
+      "scriptRunCompleteCheckTerminal": "脚本运行完成，请查看控制台输出。",
+      "installingDependenciesTitle": "安装依赖中",
+      "installingDependencies": "正在安装依赖: {{packages}}",
+      "dependenciesInstalledSuccessTitle": "依赖安装成功",
+      "dependenciesInstalledSuccess": "依赖 {{packages}} 安装成功。",
+      "dependenciesInstallFailedTitle": "依赖安装失败",
+      "dependenciesInstallFailedDesc": "依赖安装失败: {{error}}"
+    }
+  },
+  "settingsDialog": {
+    "title": "应用设置",
+    "languageLabel": "语言",
+    "selectLanguagePlaceholder": "选择语言",
+    "themeLabel": "主题",
+    "lightMode": "浅色模式",
+    "darkMode": "深色模式",
+    "switchToLightModeAriaLabel": "切换到浅色模式",
+    "switchToDarkModeAriaLabel": "切换到深色模式",
+    "fontSizeLabel": "字体大小",
+    "fontSizeSmall": "小号",
+    "fontSizeDefault": "默认",
+    "fontSizeMedium": "中号",
+    "fontSizeLarge": "大号",
+    "fontSizeLabelSmallPx": "12px",
+    "fontSizeLabelDefaultPx": "14px",
+    "fontSizeLabelMediumPx": "16px",
+    "fontSizeLabelLargePx": "18px"
+  },
+  "terminalPanel": {
+    "welcomeMessage": "欢迎使用终端。输入命令并按 Enter 键。",
+    "inputPlaceholder": "输入命令...",
+    "pythonInputPlaceholder": "输入 Python 代码...",
+    "pyodideInitializing": "Pyodide 正在初始化，请稍候...",
+    "pyodideReady": "Pyodide 已就绪。",
+    "pyodideFailed": "Pyodide 初始化失败",
+    "pyodideFailedShort": "Pyodide 未就绪。",
+    "pyodideLoadingInProgress": "Pyodide 仍在加载中，请稍候...",
+    "installingPackage": "正在安装包: {{packageName}}...",
+    "pipInstallNoPackage": "错误: pip install 需要一个包名。",
+    "pythonReplEntered": "已进入 Python 交互模式。输入 exit() 或 quit() 退出。",
+    "pythonReplExited": "已退出 Python 交互模式。",
+    "cleared": "终端已清空。",
+    "helpText": "可用命令 (模拟):\n  clear          - 清空终端\n  help           - 显示此帮助信息\n  python         - 进入 Python 交互模式\n  pip install <包> - 安装 Python 包 (例如: pip install numpy)",
+    "unknownCommand": "未知命令: {{command}}。 输入 'help' 查看可用命令。"
+  },
+  "consolePanel": {
+    "title": "控制台日志",
+    "noLogs": "暂无日志。",
+    "clearLogsAriaLabel": "清空日志"
+  }
+}

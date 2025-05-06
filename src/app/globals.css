@@ -1,0 +1,115 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+@layer base {
+  :root {
+    --background: 200 100% 95.1%;
+    --foreground: 224 71.4% 4.1%;
+    --card: 0 0% 100%;
+    --card-foreground: 224 71.4% 4.1%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 224 71.4% 4.1%;
+    --primary: 217.2 91.2% 59.8%;
+    --primary-foreground: 210 40% 98%;
+    --secondary: 217.2 32.6% 90%;
+    --secondary-foreground: 217.2 91.2% 59.8%;
+    --muted: 0 0% 98%;
+    --muted-foreground: 215 20.2% 65.1%;
+    --accent: 97 58% 50%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 217.2 91.2% 59.8%;
+    --chart-1: 12 76% 61%;
+    --chart-2: 173 58% 39%;
+    --chart-3: 197 37% 24%;
+    --chart-4: 43 74% 66%;
+    --chart-5: 27 87% 67%;
+    --radius: 0.5rem;
+    --sidebar-background: 0 0% 100%;
+    --sidebar-foreground: 224 71.4% 4.1%;
+    --sidebar-primary: 217.2 91.2% 59.8%;
+    --sidebar-primary-foreground: 210 40% 98%;
+    --sidebar-accent: 200 100% 95.1%;
+    --sidebar-accent-foreground: 224 71.4% 4.1%;
+    --sidebar-border: 214.3 31.8% 91.4%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+
+    /* 端口颜色 */
+    --port-input-border: 205 90% 50%; /* 输入端口边框 - 蓝色系 */
+    --port-output-border: 145 63% 42%; /* 输出端口边框 - 绿色系 */
+    --port-input-bg-hover: 205 90% 50%; 
+    --port-output-bg-hover: 145 63% 42%;
+  }
+  .dark {
+    --background: 220 12% 15%;
+    --foreground: 210 20% 95%;
+    --card: 220 10% 5%;
+    --card-foreground: 210 20% 95%;
+    --popover: 220 10% 5%;
+    --popover-foreground: 210 20% 95%;
+    --primary: 130 70% 60%;
+    --primary-foreground: 220 15% 10%;
+    --secondary: 220 15% 20%;
+    --secondary-foreground: 210 20% 80%;
+    --muted: 220 12% 12%;
+    --muted-foreground: 210 15% 65%;
+    --accent: 130 60% 55%;
+    --accent-foreground: 220 15% 5%;
+    --destructive: 0 70% 55%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 220 15% 30%;
+    --input: 220 15% 18%;
+    --ring: 130 70% 60%;
+    --sidebar-background: 220 15% 8%;
+    --sidebar-foreground: 210 20% 90%;
+    --sidebar-primary: 130 70% 60%;
+    --sidebar-primary-foreground: 220 15% 10%;
+    --sidebar-accent: 220 15% 15%;
+    --sidebar-accent-foreground: 210 20% 90%;
+    --sidebar-border: 220 15% 20%;
+    --sidebar-ring: 130 70% 60%;
+    --chart-1: 12 76% 71%;
+    --chart-2: 173 58% 59%;
+    --chart-3: 197 37% 44%;
+    --chart-4: 43 74% 76%;
+    --chart-5: 27 87% 77%;
+
+    /* 端口颜色 - 暗黑模式 */
+    --port-input-border: 205 80% 65%; /* 输入端口边框 - 亮蓝色 */
+    --port-output-border: 145 55% 55%; /* 输出端口边框 - 亮绿色 */
+    --port-input-bg-hover: 205 80% 65%;
+    --port-output-bg-hover: 145 55% 55%;
+  }
+}
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: hsl(var(--muted));
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: hsl(var(--secondary-foreground) / 0.5);
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: hsl(var(--secondary-foreground) / 0.7);
+}
+[id^="matplotlib"] {
+  display: none;
+}

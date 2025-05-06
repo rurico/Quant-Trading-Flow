@@ -1,0 +1,298 @@
+
+{
+  "common": {
+    "cancel": "キャンセル",
+    "delete": "削除",
+    "close": "閉じる",
+    "save": "保存",
+    "edit": "編集",
+    "apply": "適用",
+    "errorTitle": "エラー",
+    "unknownSource": "不明なソース",
+    "unknownTarget": "不明なターゲット",
+    "undo": "元に戻す",
+    "redo": "やり直し"
+  },
+  "appLayout": {
+    "nodeLibraryTitle": "ノードライブラリ",
+    "expandNodeLibraryAriaLabel": "ノードライブラリを展開",
+    "collapseNodeLibraryAriaLabel": "ノードライブラリを折りたたむ",
+    "nodeConfigTitle": "ノード設定",
+    "expandNodeConfigAriaLabel": "ノード設定を展開",
+    "collapseNodeConfigAriaLabel": "ノード設定を折りたたむ",
+    "toolsPanelTitle": "ツール",
+    "expandToolsPanelAriaLabel": "ツールパネルを展開",
+    "collapseToolsPanelAriaLabel": "ツールパネルを折りたたむ",
+    "toolsPanelTabTerminal": "ターミナル",
+    "toolsPanelTabConsole": "コンソール",
+    "tabs": {
+      "flowCanvas": "フローキャンバス",
+      "flowCanvasTitle": "フロー: {{flowName}}",
+      "codePreviewTitle": "プレビュー: {{flowName}}.py",
+      "closeTabAriaLabel": "タブ {{tabTitle}} を閉じる",
+      "expandToolsPanelAriaLabel": "ツールパネルを展開",
+      "collapseToolsPanelAriaLabel": "ツールパネルを折りたたむ",
+      "noTabsOpen": "開いているタブはありません。"
+    }
+  },
+  "header": {
+    "flowNameAriaLabel": "フロー名",
+    "untitledFlow": "無題のフロー",
+    "newButton": "新規",
+    "saveButton": "保存",
+    "previewButton": "プレビュー",
+    "previewButtonAriaLabel": "フローコードをプレビュー",
+    "exportButton": "エクスポート",
+    "settingsAriaLabel": "設定",
+    "languageSettingsLabel": "言語",
+    "previewFlowLog": "フロープレビュー:",
+    "editFlowNameDialogTitle": "フロー名を編集"
+  },
+  "nodePalette": {
+    "draggableNodeAriaLabel": "ドラッグ可能なノード",
+    "flowTemplateAriaLabel": "フローテンプレート",
+    "clickToAddAriaHint": "またはクリックして追加",
+    "doubleClickToEditFlowAriaHint": "ダブルクリックしてフローを編集",
+    "editNameAriaLabel": "名前を編集",
+    "deleteFlowTemplateAriaLabel": "フローテンプレート {{name}} を削除",
+    "deleteFunctionTemplateAriaLabel": "関数定義 {{name}} を削除",
+    "confirmDeleteFlowTemplateTitle": "フローテンプレートの削除確認",
+    "confirmDeleteFunctionTemplateTitle": "関数定義の削除確認",
+    "confirmDeleteFlowTemplateDescription": "フローテンプレート「{{name}}」を削除してもよろしいですか？この操作は元に戻せません。キャンバス上でこのテンプレートを使用しているサブフローノードは削除されません。",
+    "confirmDeleteFunctionTemplateDescription": "関数定義「{{name}}」を削除してもよろしいですか？この操作は元に戻せません。",
+    "deleteTemplateButton": "削除",
+    "excelInputName": "Excel入力",
+    "excelInputDescription": "Excelファイルからデータを読み込みます。",
+    "csvInputName": "CSV入力",
+    "csvInputDescription": "CSVファイルからデータを読み込みます。",
+    "pythonFunctionName": "Python関数",
+    "pythonFunctionDescription": "カスタムPythonコードを実行します。",
+    "outputNodeName": "出力ノード",
+    "outputNodeDescription": "フローの結果を表示します。",
+    "basicNodesTitle": "基本ノード",
+    "functionNodesTitle": "関数定義",
+    "searchFunctionsPlaceholder": "関数定義を検索...",
+    "noFunctionsFound": "一致する関数定義が見つかりませんでした。",
+    "noSavedFunctions": "保存された関数定義はまだありません。",
+    "customFunctionPrefix": "カスタム関数",
+    "flowTemplatesTitle": "フローテンプレート",
+    "noSavedFlowsShort": "保存されたフローはありません。",
+    "flowPrefix": "フロー",
+    "flowTemplateCreatedAtDescription": "作成日時: {{createdAt}}",
+    "functionTemplateAriaLabel": "関数定義",
+    "clickToEditAriaHint": "クリックして名前を編集、ダブルクリックして設定",
+    "baseFunctionReadOnlyHint": "基本関数、読み取り専用"
+  },
+  "configPanel": {
+    "portNamePlaceholder": "パラメータ表示名",
+    "customPort": "カスタム",
+    "originalPortNameLabel": "元の名前",
+    "editPortNameAriaLabel": "パラメータ名を編集",
+    "selectNodePrompt": "設定を表示するには、ライブラリからノードまたは関数定義を選択してください。",
+    "configureNodeTitle": "ノード設定: {{name}}",
+    "configureTemplateTitle": "関数定義編集: {{name}}",
+    "nodeNameLabel": "ノード名",
+    "templateNameLabel": "関数定義名（ファイル名）",
+    "templateNamePlaceholder": "ファイル名を入力（.pyなし）",
+    "templateNameError": {
+      "empty": "関数定義名は空にできません。",
+      "conflict": "関数定義名「{{name}}」は既に存在します。別の名前を使用してください。"
+    },
+    "pythonCodeLabel": "Pythonコード",
+    "excelFileLabel": "Excelファイル",
+    "csvFileLabel": "CSVファイル",
+    "uploadButton": "アップロード",
+    "selectedFileLabel": "選択済み",
+    "fileSizeLabel": "サイズ",
+    "filePreviewLabel": "ファイルプレビュー",
+    "noDataToPreview": "プレビューするデータがないか、ファイルが空です。",
+    "emptyFileError": "ファイルが空か、読み込めませんでした。",
+    "subflowIdLabel": "フローテンプレートID",
+    "subflowIdPlaceholder": "フローテンプレートのID",
+    "subflowIdDescription": "このIDは保存されたフローテンプレートに対応します。フローテンプレートライブラリからドラッグしてください。",
+    "outputTypeLabel": "出力タイプ",
+    "selectOutputTypePlaceholder": "出力タイプを選択",
+    "outputValueJsonLabel": "出力値",
+    "inputParametersLabel": "入力パラメータ",
+    "addInputParameterButton": "入力を追加",
+    "noInputParameters": "入力パラメータなし",
+    "outputParametersLabel": "出力パラメータ",
+    "addOutputParameterButton": "出力を追加",
+    "noOutputParameters": "出力パラメータなし",
+    "applyChangesButton": "変更を適用",
+    "editPythonCodeTitle": "Pythonコード編集: {{name}}",
+    "applyCodeAndCloseButton": "適用して閉じる",
+    "customFunctionPrefix": "カスタム関数",
+    "aiHelper": {
+      "inputPlaceholder": "Geminiにコード作成を依頼",
+      "triggerButtonAriaLabel": "AIでコード生成",
+      "toast": {
+        "generatingTitle": "AIがコードを生成中...",
+        "successTitle": "AIコード生成完了",
+        "successDescription": "コードがエディタに入力されました。",
+        "errorTitle": "AI生成失敗",
+        "errorDescription": "コードの生成に失敗しました: {{error}}",
+        "emptyResultError": "AIはコード内容を返しませんでした。"
+      }
+    }
+  },
+  "flowCanvas": {
+    "newNodeDefaultName": "新しいノード",
+    "ariaLabel": "フローキャンバス",
+    "deleteConnectionAriaLabel": "選択した接続を削除",
+    "zoomInAriaLabel": "拡大",
+    "zoomOutAriaLabel": "縮小",
+    "resetViewAriaLabel": "ビューをリセット"
+  },
+  "flowNode": {
+    "ariaLabel": "フローノード: {{name}}、タイプ: {{type}}{{selected}}",
+    "selectedStatus": "、選択済み",
+    "deleteNodeAriaLabel": "ノード {{name}} を削除",
+    "pathLabel": "パス",
+    "subflowIdLabel": "フローテンプレートID",
+    "filePreviewAvailableHint": "ファイル情報は以下です",
+    "showMoreData": "さらにデータを表示 (合計 {{count}} 行)",
+    "showLessData": "データを折りたたむ"
+  },
+  "toast": {
+    "flowNameUpdatedTitle": "フロー名更新完了",
+    "flowNameUpdatedDescription": "新しいフロー名: {{name}}",
+    "flowSavedTitle": "フロー保存完了",
+    "flowSavedDescription": "フロー「{{name}}」が正常に保存されました。",
+    "newFlowCreatedTitle": "新しいフロー作成完了",
+    "flowLoadedTitle": "フロー読み込み完了",
+    "flowLoadedDescription": "フロー「{{name}}」が読み込まれました。",
+    "flowLoadedForEditing": {
+      "title": "フローテンプレート読み込み完了",
+      "description": "フローテンプレート「{{name}}」が編集用にキャンバスに読み込まれました。"
+    },
+    "loadFailed": {
+      "title": "読み込み失敗",
+      "description": "指定されたフローテンプレートが見つかりませんでした。"
+    },
+    "flowDeletedTitle": "フローテンプレート削除完了",
+    "flowDeletedDescription": "保存されたフローテンプレート「{{name}}」が削除されました。",
+    "previewFlowTitle": "フロープレビュー中",
+    "previewFlowDescription": "フローコードプレビューを生成しています...",
+    "previewCompletedTitle": "プレビュー完了",
+    "previewCompletedDescription": "コードプレビューが生成されました。新しいタブを確認してください。",
+    "flowExportedTitle": "フローエクスポート完了",
+    "flowExportedDescription": "フロー {{name}} がPythonファイルとしてエクスポートされました。",
+    "updateFailed": "更新失敗",
+    "outputInvalidJson": "出力値が有効なJSONではありません。",
+    "functionApplied": {
+      "title": "関数定義適用完了",
+      "nodeDescription": "関数定義「{{name}}」が更新され、関数定義ライブラリに保存されました。"
+    },
+    "nodeUpdated": {
+      "title": "ノード更新完了",
+      "description": "ノード「{{name}}」の設定が保存されました。"
+    },
+    "templateUpdated": {
+      "title": "関数定義更新完了",
+      "description": "関数定義「{{name}}」が正常に更新されました。"
+    },
+    "codeUpdatedDialog": {
+      "title": "コード更新完了",
+      "description": "拡大エディタからコードが同期されました。「変更を適用」をクリックしてノードを保存してください。"
+    },
+    "connectionFailed": {
+      "title": "接続失敗",
+      "portAlreadyConnected": "パラメータ {{portName}} は既に接続されています。",
+      "invalidConnectionTarget": "無効な接続先またはタイプ不一致。"
+    },
+    "connectionSuccess": {
+      "title": "接続成功",
+      "description": "ノード {{sourceNodeName}} -> {{targetNodeName}}"
+    },
+    "connectionCut": {
+      "title": "接続線が切断されました",
+      "description": "{{sourceNodeName}} から {{targetNodeName}} への接続線が切断されました。"
+    },
+    "nodeAdded": {
+      "title": "ノード追加完了",
+      "toCanvasDescription": "タイプ「{{name}}」のノードがキャンバスに追加されました。",
+      "byClickDescription": "クリックでノード「{{name}}」を追加しました。"
+    },
+    "functionDefinition": {
+      "nameConflict": "関数定義名「{{name}}」は既に存在します。別の名前を使用してください。"
+    },
+    "functionTemplateDeleted": {
+      "title": "関数定義削除完了",
+      "description": "関数定義「{{name}}」がリストから削除されました。"
+    },
+    "templateSelected": {
+      "title": "関数定義選択完了",
+      "description": "関数定義「{{name}}」が編集用に選択されました。"
+    },
+    "templateNameUpdated": {
+      "title": "関数定義名更新完了",
+      "description": "関数定義「{{oldName}}.py」の名前が「{{newName}}.py」に変更されました。"
+    },
+    "fileSelected": {
+      "title": "ファイル選択完了",
+      "description": "ファイル「{{fileName}}」が入力用に選択されました。"
+    },
+    "fileReadError": {
+      "title": "ファイル読み込みエラー",
+      "description": "選択したファイルを読み込めませんでした。"
+    },
+    "codePreview": {
+      "loadingPreview": "コードプレビューを読み込み中...",
+      "compilationErrorTitle": "コンパイルエラー",
+      "flowNotAvailable": "フロー {{flowId}} のコードプレビューを読み込めません。",
+      "runScriptButtonAriaLabel": "プレビューされたPythonスクリプトを実行",
+      "runningScript": "スクリプトを実行中...",
+      "scriptRunComplete": "スクリプトの実行が完了しました。",
+      "scriptRunError": "スクリプト実行エラー: {{error}}",
+      "scriptRunCompleteCheckTerminal": "スクリプト実行完了、コンソール出力を確認してください。",
+      "installingDependenciesTitle": "依存関係をインストール中",
+      "installingDependencies": "依存関係をインストール中: {{packages}}",
+      "dependenciesInstalledSuccessTitle": "依存関係インストール成功",
+      "dependenciesInstalledSuccess": "依存関係 {{packages}} のインストールに成功しました。",
+      "dependenciesInstallFailedTitle": "依存関係インストール失敗",
+      "dependenciesInstallFailedDesc": "依存関係のインストールに失敗しました: {{error}}"
+    }
+  },
+  "settingsDialog": {
+    "title": "アプリケーション設定",
+    "languageLabel": "言語",
+    "selectLanguagePlaceholder": "言語を選択",
+    "themeLabel": "テーマ",
+    "lightMode": "ライトモード",
+    "darkMode": "ダークモード",
+    "switchToLightModeAriaLabel": "ライトモードに切り替え",
+    "switchToDarkModeAriaLabel": "ダークモードに切り替え",
+    "fontSizeLabel": "フォントサイズ",
+    "fontSizeSmall": "小",
+    "fontSizeDefault": "デフォルト",
+    "fontSizeMedium": "中",
+    "fontSizeLarge": "大",
+    "fontSizeLabelSmallPx": "12px",
+    "fontSizeLabelDefaultPx": "14px",
+    "fontSizeLabelMediumPx": "16px",
+    "fontSizeLabelLargePx": "18px"
+  },
+  "terminalPanel": {
+    "welcomeMessage": "ターミナルへようこそ。コマンドを入力してEnterキーを押してください。",
+    "inputPlaceholder": "コマンドを入力...",
+    "pythonInputPlaceholder": "Pythonコードを入力...",
+    "pyodideInitializing": "Pyodideを初期化中です。しばらくお待ちください...",
+    "pyodideReady": "Pyodideの準備ができました。",
+    "pyodideFailed": "Pyodideの初期化に失敗しました",
+    "pyodideFailedShort": "Pyodide準備未完了。",
+    "pyodideLoadingInProgress": "Pyodideはまだ読み込み中です。しばらくお待ちください...",
+    "installingPackage": "{{packageName}} パッケージをインストール中...",
+    "pipInstallNoPackage": "エラー: pip install にはパッケージ名が必要です。",
+    "pythonReplEntered": "Python対話モードに入りました。exit() または quit() を入力して終了します。",
+    "pythonReplExited": "Python対話モードを終了しました。",
+    "cleared": "ターミナルをクリアしました。",
+    "helpText": "利用可能なコマンド（シミュレート済み）：\n  clear          - ターミナルをクリア\n  help           - このヘルプメッセージを表示\n  python         - Python対話モードに入る\n  pip install <パッケージ> - Pythonパッケージをインストール（例：pip install numpy）",
+    "unknownCommand": "不明なコマンド: {{command}}。「help」と入力して利用可能なコマンドを確認してください。"
+  },
+  "consolePanel": {
+    "title": "コンソールログ",
+    "noLogs": "ログはまだありません。",
+    "clearLogsAriaLabel": "ログをクリア"
+  }
+}
